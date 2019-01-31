@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KnockKnock</name>
+    </assembly>
+    <members>
+        <member name="M:KnockKnock.Controllers.FibonacciController.Get(Algorithms.Abstract.IFibonacci,System.Int64)">
+             <summary>
+            Returns the nth number in the fibonacci sequence.
+             </summary>
+             <param name="n"></param> 
+        </member>
+        <member name="M:KnockKnock.Controllers.ReverseWordsController.Get(Algorithms.Abstract.IReverseWord,System.String)">
+             <summary>
+            Reverses the letters of each word in a sentence.
+             </summary>
+             <param name="sentence"></param> 
+        </member>
+        <member name="M:KnockKnock.Controllers.TokenController.Get">
+            <summary>
+            Returns Token
+            </summary>
+        </member>
+        <member name="M:KnockKnock.Controllers.TriangleTypeController.Get(Algorithms.Abstract.ITriangleType,System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Returns the type of triange given the lengths of its sides 
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
